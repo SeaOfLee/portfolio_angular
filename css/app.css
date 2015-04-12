@@ -35,6 +35,12 @@ p {
   padding: 7px;
 }
 
+.project_img:hover {
+  background: #D0D0D0;
+  border: 1px solid #b9b9b9;
+  padding: 7px;
+}
+
 .project_img_static {
   background: #D0D0D0;
   border: 1px solid #b9b9b9;
