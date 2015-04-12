@@ -2,6 +2,7 @@ angular.module('leeApp', ['ngRoute'])
 
 .config(function($routeProvider) {
   $routeProvider
+
     .when('/', {
       templateUrl : 'pages/work.html',
       controller  : 'mainCtrl'
@@ -15,6 +16,11 @@ angular.module('leeApp', ['ngRoute'])
     .when('/contact', {
       templateUrl : 'pages/contact.html',
       controller  : 'contactCtrl' 
+    })
+
+    .when('/offerup', {
+      templateUrl : 'pages/offerup.html',
+      controller  : 'mainCtrl'
     });
 })
 
